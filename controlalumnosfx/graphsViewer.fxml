@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="550.0" stylesheets="@CSS/imageView.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlalumnosfx.ImageViewerController">
+   <center>
+      <ImageView fx:id="imageMain" fitHeight="346.0" fitWidth="507.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <Button fx:id="saveImage" mnemonicParsing="false" prefHeight="39.0" prefWidth="103.0" text="Guardar" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="35.0" />
+         </BorderPane.margin>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </bottom>
+</BorderPane>
